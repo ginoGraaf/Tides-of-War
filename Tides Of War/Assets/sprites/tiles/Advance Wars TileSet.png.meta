@@ -1,0 +1,2107 @@
+fileFormatVersion: 2
+guid: 5eab6084f70ae2b44ac74aa7751f47ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5770372491497264479
+    second: Advance Wars TileSet_0
+  - first:
+      213: -2003321265839952490
+    second: Advance Wars TileSet_1
+  - first:
+      213: -514857782758092926
+    second: Advance Wars TileSet_2
+  - first:
+      213: 952519152249926199
+    second: Advance Wars TileSet_3
+  - first:
+      213: -7919634131397914591
+    second: Advance Wars TileSet_4
+  - first:
+      213: -5691922511464110719
+    second: Advance Wars TileSet_5
+  - first:
+      213: -5378264433476823603
+    second: Advance Wars TileSet_6
+  - first:
+      213: 3327937505073686562
+    second: Advance Wars TileSet_7
+  - first:
+      213: 7571801842148416993
+    second: Advance Wars TileSet_8
+  - first:
+      213: 4179615079359004704
+    second: Advance Wars TileSet_9
+  - first:
+      213: -6086544668861163393
+    second: Advance Wars TileSet_10
+  - first:
+      213: 4438428964838365290
+    second: Advance Wars TileSet_11
+  - first:
+      213: 6356924154782700793
+    second: Advance Wars TileSet_12
+  - first:
+      213: -6248526686863722632
+    second: Advance Wars TileSet_13
+  - first:
+      213: 264519813391459359
+    second: Advance Wars TileSet_14
+  - first:
+      213: -1879078373962087467
+    second: Advance Wars TileSet_15
+  - first:
+      213: -6858165106992979293
+    second: Advance Wars TileSet_16
+  - first:
+      213: 5280168041859014288
+    second: Advance Wars TileSet_17
+  - first:
+      213: -6076955560412482102
+    second: Advance Wars TileSet_18
+  - first:
+      213: -7362227778547040091
+    second: Advance Wars TileSet_19
+  - first:
+      213: 3663517760518888327
+    second: Advance Wars TileSet_20
+  - first:
+      213: 3676538379693768851
+    second: Advance Wars TileSet_21
+  - first:
+      213: 6446866913704682645
+    second: Advance Wars TileSet_22
+  - first:
+      213: -2937902943805845677
+    second: Advance Wars TileSet_23
+  - first:
+      213: 2741809673803467155
+    second: Advance Wars TileSet_24
+  - first:
+      213: -1709833335431698012
+    second: Advance Wars TileSet_25
+  - first:
+      213: 3556834796526088188
+    second: Advance Wars TileSet_26
+  - first:
+      213: 2036504740854501075
+    second: Advance Wars TileSet_27
+  - first:
+      213: 8920931930172790718
+    second: Advance Wars TileSet_28
+  - first:
+      213: 3009219783440248011
+    second: Advance Wars TileSet_29
+  - first:
+      213: 2691663690041976657
+    second: Advance Wars TileSet_30
+  - first:
+      213: 6988354179208716343
+    second: Advance Wars TileSet_31
+  - first:
+      213: -9222950254915229224
+    second: Advance Wars TileSet_32
+  - first:
+      213: 53615723376373746
+    second: Advance Wars TileSet_33
+  - first:
+      213: -8617915471185815175
+    second: Advance Wars TileSet_34
+  - first:
+      213: -4129640589644755269
+    second: Advance Wars TileSet_35
+  - first:
+      213: -6253371623366228257
+    second: Advance Wars TileSet_36
+  - first:
+      213: -3905759000282290012
+    second: Advance Wars TileSet_37
+  - first:
+      213: 107105556137994235
+    second: Advance Wars TileSet_38
+  - first:
+      213: -8166911313077996435
+    second: Advance Wars TileSet_39
+  - first:
+      213: 1714023195052504774
+    second: Advance Wars TileSet_40
+  - first:
+      213: -6290613572506756270
+    second: Advance Wars TileSet_41
+  - first:
+      213: -9087955199250590305
+    second: Advance Wars TileSet_42
+  - first:
+      213: -6253010098876139956
+    second: Advance Wars TileSet_43
+  - first:
+      213: -4478617172614140557
+    second: Advance Wars TileSet_44
+  - first:
+      213: -1471132196789449873
+    second: Advance Wars TileSet_45
+  - first:
+      213: -1929237989544149058
+    second: Advance Wars TileSet_46
+  - first:
+      213: 1876523973504033587
+    second: Advance Wars TileSet_47
+  - first:
+      213: 8893299555188432130
+    second: Advance Wars TileSet_48
+  - first:
+      213: 1740901078213612877
+    second: Advance Wars TileSet_49
+  - first:
+      213: 3824811191885521475
+    second: Advance Wars TileSet_50
+  - first:
+      213: 3239968010782380590
+    second: Advance Wars TileSet_51
+  - first:
+      213: -5683231832897234074
+    second: Advance Wars TileSet_52
+  - first:
+      213: 8372778060588076251
+    second: Advance Wars TileSet_53
+  - first:
+      213: -7789871292426837560
+    second: Advance Wars TileSet_54
+  - first:
+      213: -3629812762446998843
+    second: Advance Wars TileSet_55
+  - first:
+      213: -8529379110348495293
+    second: Advance Wars TileSet_56
+  - first:
+      213: -2041424254934686430
+    second: Advance Wars TileSet_57
+  - first:
+      213: 8110949713381011178
+    second: Advance Wars TileSet_58
+  - first:
+      213: -1839845309503384496
+    second: Advance Wars TileSet_59
+  - first:
+      213: 4206764805864188672
+    second: Advance Wars TileSet_60
+  - first:
+      213: -2871659321565747745
+    second: Advance Wars TileSet_61
+  - first:
+      213: -4597136937357189424
+    second: Advance Wars TileSet_62
+  - first:
+      213: -5286854112035876798
+    second: Advance Wars TileSet_63
+  - first:
+      213: -6037574075745148374
+    second: Advance Wars TileSet_64
+  - first:
+      213: 3771903054599415294
+    second: Advance Wars TileSet_65
+  - first:
+      213: 1588204618203276486
+    second: Advance Wars TileSet_66
+  - first:
+      213: -7718554576854096309
+    second: Advance Wars TileSet_67
+  - first:
+      213: 3091504021233687373
+    second: Advance Wars TileSet_68
+  - first:
+      213: -1602342911154767496
+    second: Advance Wars TileSet_69
+  - first:
+      213: -6735126132548205570
+    second: Advance Wars TileSet_70
+  - first:
+      213: -7165889376038037011
+    second: Advance Wars TileSet_71
+  - first:
+      213: 2633848653497940685
+    second: Advance Wars TileSet_72
+  - first:
+      213: 7775031582942612391
+    second: Advance Wars TileSet_73
+  - first:
+      213: -366471028430961466
+    second: Advance Wars TileSet_74
+  - first:
+      213: 3608715865816211326
+    second: Advance Wars TileSet_75
+  - first:
+      213: -8640404786493085580
+    second: Advance Wars TileSet_76
+  - first:
+      213: -7566400579818634265
+    second: Advance Wars TileSet_77
+  - first:
+      213: 5705054147607538554
+    second: Advance Wars TileSet_78
+  - first:
+      213: -6488785095675999458
+    second: Advance Wars TileSet_79
+  - first:
+      213: 3264701498451152060
+    second: Advance Wars TileSet_80
+  - first:
+      213: -860169901102524394
+    second: Advance Wars TileSet_81
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Advance Wars TileSet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f555161553b741050800000000000000
+      internalID: 5770372491497264479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69daf9a3ce5c234e0800000000000000
+      internalID: -2003321265839952490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fcbdc039bdad8f0800000000000000
+      internalID: -514857782758092926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732fc9f4f17083d00800000000000000
+      internalID: 952519152249926199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d7fea7bec71290800000000000000
+      internalID: -7919634131397914591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185e12702aa3201b0800000000000000
+      internalID: -5691922511464110719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc51f763ef09c55b0800000000000000
+      internalID: -5378264433476823603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ed9857853f2e20800000000000000
+      internalID: 3327937505073686562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 54
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed97e688a1741960800000000000000
+      internalID: 7571801842148416993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0204f0725c9f00a30800000000000000
+      internalID: 4179615079359004704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f789bfe1fdf388ba0800000000000000
+      internalID: -6086544668861163393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68def1b0a7789d30800000000000000
+      internalID: 4438428964838365290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f45ced96d4583850800000000000000
+      internalID: 6356924154782700793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87770fb9516c849a0800000000000000
+      internalID: -6248526686863722632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1420496e53cba300800000000000000
+      internalID: 264519813391459359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d30fd6bc2c2ce5e0800000000000000
+      internalID: -1879078373962087467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a264badb27e2d0a0800000000000000
+      internalID: -6858165106992979293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e5069cbdce64940800000000000000
+      internalID: 5280168041859014288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_18
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac577c96d115aaba0800000000000000
+      internalID: -6076955560412482102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0c03897dc14d990800000000000000
+      internalID: -7362227778547040091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b10183efd67d230800000000000000
+      internalID: 3663517760518888327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ccbc5d20b50330800000000000000
+      internalID: 3676538379693768851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59426911d4fd77950800000000000000
+      internalID: 6446866913704682645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_23
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fc0e996d87a37d0800000000000000
+      internalID: -2937902943805845677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39909c02f5ddc0620800000000000000
+      internalID: 2741809673803467155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_25
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9e878f3a37548e0800000000000000
+      internalID: -1709833335431698012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_26
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffafab076a6c5130800000000000000
+      internalID: 3556834796526088188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_27
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 26
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de080e954e134c10800000000000000
+      internalID: 2036504740854501075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 46
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7936b43548dcb70800000000000000
+      internalID: 8920931930172790718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcca8031375e2c920800000000000000
+      internalID: 3009219783440248011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157e4c37dd5ba5520800000000000000
+      internalID: 2691663690041976657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7302a50a91f9bf060800000000000000
+      internalID: 6988354179208716343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9eda2cb9f710080800000000000000
+      internalID: -9222950254915229224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff6932673b7eb000800000000000000
+      internalID: 53615723376373746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_34
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97950a3e983076880800000000000000
+      internalID: -8617915471185815175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_35
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe803473c190b6c0800000000000000
+      internalID: -4129640589644755269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_36
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 29
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd68fbce3af8739a0800000000000000
+      internalID: -6253371623366228257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 29
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8a3e102e4fbc9c0800000000000000
+      internalID: -3905759000282290012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_38
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf763139fe38c7100800000000000000
+      internalID: 107105556137994235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_39
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64fddf4e6d49ae80800000000000000
+      internalID: -8166911313077996435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c672edb30f69c710800000000000000
+      internalID: 1714023195052504774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bdb7fe84043b8a0800000000000000
+      internalID: -6290613572506756270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95110675e811e180800000000000000
+      internalID: -9087955199250590305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46be87e178d839a0800000000000000
+      internalID: -6253010098876139956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_44
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dae550961c8d1c0800000000000000
+      internalID: -4478617172614140557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_45
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b89b8bf0d759be0800000000000000
+      internalID: -1471132196789449873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf38022548f935e0800000000000000
+      internalID: -1929237989544149058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_47
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33366359c90ca0a10800000000000000
+      internalID: 1876523973504033587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_48
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5524a3d85b6b70800000000000000
+      internalID: 8893299555188432130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4554049e4ce82810800000000000000
+      internalID: 1740901078213612877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_50
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 12
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3426649a385741530800000000000000
+      internalID: 3824811191885521475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_51
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22105e5dbda6fc20800000000000000
+      internalID: 3239968010782380590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bd7ff42ca1121b0800000000000000
+      internalID: -5683231832897234074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_53
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc49840945123470800000000000000
+      internalID: 8372778060588076251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_54
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1a2e00551d4e390800000000000000
+      internalID: -7789871292426837560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_55
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2da2d268050adc0800000000000000
+      internalID: -3629812762446998843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3466a05c3ee81a980800000000000000
+      internalID: -8529379110348495293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22560c0c4776ba3e0800000000000000
+      internalID: -2041424254934686430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_58
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea1296ac1ef8070800000000000000
+      internalID: 8110949713381011178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_59
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054d16d507e8776e0800000000000000
+      internalID: -1839845309503384496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b66237d4e616a30800000000000000
+      internalID: 4206764805864188672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_61
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5622ecf01d528d0800000000000000
+      internalID: -2871659321565747745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de5ff8ef40b330c0800000000000000
+      internalID: -4597136937357189424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_63
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240d9c0323251a6b0800000000000000
+      internalID: -5286854112035876798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_64
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 19
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a226a16dd5a363ca0800000000000000
+      internalID: -6037574075745148374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_65
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5eb9008dd785430800000000000000
+      internalID: 3771903054599415294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_66
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c424a28faf6a0610800000000000000
+      internalID: 1588204618203276486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_67
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46652bc18f22e490800000000000000
+      internalID: -7718554576854096309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_68
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b535f178a37ea20800000000000000
+      internalID: 3091504021233687373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_69
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8793144ac9553c9e0800000000000000
+      internalID: -1602342911154767496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_70
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3830877760882a0800000000000000
+      internalID: -6735126132548205570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_71
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9d1893495ad8c90800000000000000
+      internalID: -7165889376038037011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab2e7456f4d8420800000000000000
+      internalID: 2633848653497940685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_73
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abccb2e70676eb60800000000000000
+      internalID: 7775031582942612391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_74
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c486e19a880aeaf0800000000000000
+      internalID: -366471028430961466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_75
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f9a4dc5fbb41230800000000000000
+      internalID: 3608715865816211326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_76
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478ae7120ad171880800000000000000
+      internalID: -8640404786493085580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_77
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3c99bd2cebef690800000000000000
+      internalID: -7566400579818634265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_78
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b2484458c6c2f40800000000000000
+      internalID: 5705054147607538554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_79
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b0264a55433f5a0800000000000000
+      internalID: -6488785095675999458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_80
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 12
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbccdd837bc8e4d20800000000000000
+      internalID: 3264701498451152060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advance Wars TileSet_81
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6181d4648001014f0800000000000000
+      internalID: -860169901102524394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
