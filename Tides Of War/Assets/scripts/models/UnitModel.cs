@@ -12,7 +12,7 @@ public class UnitModel
     public int UnitPower { get; set; }
     public int UnitDefence { get; set; }
     public float UnitHitPoints { get; set; }
-    TileModel CurrentTile{ get; set; }
+    public TileModel CurrentTile{ get; set; }
     public float PosX { get; set; }
     public float PosY { get; set; }
     public Action<UnitModel> CbUnitUpdateGraphics;

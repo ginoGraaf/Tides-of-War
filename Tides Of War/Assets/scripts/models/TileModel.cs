@@ -11,6 +11,7 @@ using System.Text;
         string tileType;
       //  public NodeT node;
         BuildingModel buildModel;
+        public UnitModel UnitOnTile { get; set; }
         public int TileMovementCost { get; set; }
         public int X { get { return x; } set { x = value; } }
         public int Y { get { return y; } set { y = value; } }

@@ -20,6 +20,7 @@ public class BuildMouseMapController : MonoBehaviour
         if(Input.GetMouseButton(1))
         {
             buildModeIsObjects = typeBuild.SELECTMODE;
+            WorldManger.Instance.unitController.UnitDeselect();
             buildTypeName = "";
         }
 
@@ -32,6 +33,12 @@ public class BuildMouseMapController : MonoBehaviour
         TileModel tile = WorldManger.Instance.World.getTile(x,y);
         switch(buildModeIsObjects)
         {
+            case typeBuild.SELECTMODE:
+                if (tile != null)
+                {
+                    WorldManger.Instance.unitController.UnitSlected(tile.UnitOnTile);
+                }
+                break;
             case typeBuild.GROUND:
                 DoBuild(tile);
                 break;

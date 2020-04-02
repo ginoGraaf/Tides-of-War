@@ -121,7 +121,9 @@ public class GameMapController
     {
         if (tile != null && unit != null)
         {
-            UnitModel unitmodel = new UnitModel {UnitName=unit.UnitName,UnitDefence=unit.UnitDefence,UnitHitPoints=unit.UnitHitPoints,UnitPower=unit.UnitPower,unitColorType=unit.unitColorType,UnitMovemtCredits=unit.UnitMovemtCredits,PosX=tile.X,PosY=tile.Y };
+        
+            UnitModel unitmodel = new UnitModel {UnitName=unit.UnitName,UnitDefence=unit.UnitDefence,UnitHitPoints=unit.UnitHitPoints,UnitPower=unit.UnitPower,unitColorType=unit.unitColorType,UnitMovemtCredits=unit.UnitMovemtCredits,PosX=tile.X,PosY=tile.Y,CurrentTile=tile };
+            tile.UnitOnTile = unitmodel;
             if (callbackCharacter != null)
             {
                 callbackCharacter(unitmodel);
