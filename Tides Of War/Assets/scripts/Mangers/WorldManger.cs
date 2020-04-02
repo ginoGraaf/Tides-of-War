@@ -9,10 +9,14 @@ public class WorldManger : MonoBehaviour
     [SerializeField]
     TileView tileview;
     [SerializeField]
+    UnitView unitView;
+    [SerializeField]
     BuildingView buildingView;
 
     public BuildingController buildingController;
+    public UnitController unitController;
     public GameMapController World { get; set; }
+   
     public static WorldManger Instance { get; set; }
     public int MapSizeX { get => mapSizeX; set => mapSizeX = value; }
     public int MapSizeY { get => mapSizeY; set => mapSizeY = value; }
@@ -28,9 +32,9 @@ public class WorldManger : MonoBehaviour
 
     void Init()
     {
-        TileModel model = World.getTile(10, 10);
-        Debug.Log("X: " + model.X + " Y: " + model.Y);
         tileview.TileSetup();
+        unitController.InitUnits();
+        unitView.InitSprite();
         buildingView.SetUpBuildings();
     }
 }

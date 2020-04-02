@@ -9,7 +9,7 @@ public class GameMapController
     TileModel[,] tiles;
     Action<TileModel> callbackTileChange;
     Action<BuildingModel> callbackBuildingCreated;
-    //Action<CharacterModel> callbackCharacter;
+    Action<UnitModel> callbackCharacter;
 
     BuildBuilding buildingLogic;
     int worldWidth = 0, worldHight = 0;
@@ -27,7 +27,7 @@ public class GameMapController
         {
             for (int y = 0; y < height; y++)
             {
-                tiles[x, y] = new TileModel { X = x, Y = y, blocked = false, TileType = "Grass" };
+                tiles[x, y] = new TileModel { X = x, Y = y, blocked = false, TileType = "Grass",TileMovementCost=1 };
                // tiles[x, y].node = new NodeT(x, y, false, this);
             }
         }
@@ -117,18 +117,18 @@ public class GameMapController
 
     }
 
-    //public void CreateCharacter(TileModel tile, CharacterModel characterModelType)
-    //{
-    //    if (tile != null)
-    //    {
-    //        CharacterModel characterModel = new CharacterModel { CharacterType = characterModelType.CharacterType, currentTile = tile, goalTile = tile, nextTile = tile, TargetPos = new Vector2(tile.X, tile.Y), speed = characterModelType.speed, inRoom = characterModelType.inRoom };
-    //        if (callbackCharacter != null)
-    //        {
-    //            callbackCharacter(characterModel);
-    //        }
-    //        WorldManger.instance.charController.AddCharacter(characterModel);
-    //    }
-    //}
+    public void CreateCharacter(TileModel tile, UnitModel unit)
+    {
+        if (tile != null && unit != null)
+        {
+            UnitModel unitmodel = new UnitModel {UnitName=unit.UnitName,UnitDefence=unit.UnitDefence,UnitHitPoints=unit.UnitHitPoints,UnitPower=unit.UnitPower,unitColorType=unit.unitColorType,UnitMovemtCredits=unit.UnitMovemtCredits,PosX=tile.X,PosY=tile.Y };
+            if (callbackCharacter != null)
+            {
+                callbackCharacter(unitmodel);
+            }
+            WorldManger.Instance.unitController.AddUnitToList(unitmodel);
+        }
+    }
 
     //[Callback for graphics].
     public void RegisterTileChange(Action<TileModel> tile)
@@ -141,14 +141,14 @@ public class GameMapController
         callbackBuildingCreated += building;
     }
 
-    //public void RegisterCharacterToWorld(Action<CharacterModel> character)
-    //{
-    //    callbackCharacter += character;
-    //}
+    public void RegisterCharacterToWorld(Action<UnitModel> character)
+    {
+        callbackCharacter += character;
+    }
 
-    //public void UnRegisterCharacterToWorld(Action<CharacterModel> character)
-    //{
-    //    callbackCharacter -= character;
-    //}
+    public void UnRegisterCharacterToWorld(Action<UnitModel> character)
+    {
+        callbackCharacter -= character;
+    }
 
 }

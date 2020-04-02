@@ -7,11 +7,11 @@ using System.Text;
     public class TileModel
     {
         int x, y;
-        public bool blocked = false, outSide = false;
+        public bool blocked = false;
         string tileType;
       //  public NodeT node;
         BuildingModel buildModel;
-
+        public int TileMovementCost { get; set; }
         public int X { get { return x; } set { x = value; } }
         public int Y { get { return y; } set { y = value; } }
         public bool Blocked { get { return blocked; } set { blocked = value; } }

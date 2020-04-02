@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1904
     height: 981
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 342}
   m_MaxSize: {x: 16006, y: 8042}
   vertical: 0
-  controlID: 30135
+  controlID: 5057
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 680, y: 342}
   m_MaxSize: {x: 12005, y: 8042}
   vertical: 1
-  controlID: 30136
+  controlID: 5058
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 680, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 30252
+  controlID: 4997
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -426,9 +426,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 16, y: 8.375, z: 0}
+    m_Target: {x: 1203.3472, y: 120.32666, z: -88.08042}
     speed: 2
-    m_Value: {x: 16, y: 8.375, z: 0}
+    m_Value: {x: 1203.3472, y: 120.32666, z: -88.08042}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -478,9 +478,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.992829
+    m_Target: 476.49628
     speed: 2
-    m_Value: 2.992829
+    m_Value: 476.49628
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -646,20 +646,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/sprites/buildings
+    - Assets/prefab/canvas
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/sprites/buildings
+  - Assets/prefab/canvas
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\fontys\semester 4\gdt41\Game\Tides-of-War\Tides Of War
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a340000
-    m_LastClickedID: 13370
-    m_ExpandedIDs: 00000000163400002e3400003834000000ca9a3b
+    m_SelectedIDs: 7e350000
+    m_LastClickedID: 13694
+    m_ExpandedIDs: 000000006e3500007235000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -687,7 +687,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000163400002e3400003834000000ca9a3b
+    m_ExpandedIDs: 000000006e3500007235000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -712,8 +712,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: aad8ffff
+    m_LastClickedInstanceID: -10070
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300001e6f00005c2a0000d629000088270000ce3c0000cc3c000014450000
     m_RenameOverlay:
@@ -1325,7 +1325,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -95692
+  m_LastSelectedObjectID: -8146
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1355,9 +1355,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0a14feff2c2cfffff68effff28a9ffff6efbffffde330000
+      m_SelectedIDs: 2ee0ffff
+      m_LastClickedID: -8146
+      m_ExpandedIDs: badfffff0ee0ffff14fbffff1afbffff42fbffff6afbffff6efbffff1e340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

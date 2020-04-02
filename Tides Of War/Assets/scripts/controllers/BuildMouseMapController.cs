@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuildMouseMapController : MonoBehaviour
 {
-    public enum typeBuild { SELECTMODE, GROUND, BUILDING, ADDRESOURCE, BULLDOZE, HIRE, DESIGNATEDROOM, UNDESIGNATEDROOM, CREATEITEM, CANBUILD }
+    public enum typeBuild { SELECTMODE, GROUND, BUILDING, ADDRESOURCE, BULLDOZE, MAKEUNIT, DESIGNATEDROOM, UNDESIGNATEDROOM, CREATEITEM, CANBUILD }
     typeBuild buildModeIsObjects = typeBuild.SELECTMODE;
     string buildTypeName = "";
     Vector2 mousePos;
@@ -38,6 +38,10 @@ public class BuildMouseMapController : MonoBehaviour
             case typeBuild.BUILDING:
                 DoBuildObject(tile);
                 break;
+            case typeBuild.MAKEUNIT:
+                DoBuildUnit(tile);
+                break;
+
         }
     }
 
@@ -53,6 +57,11 @@ public class BuildMouseMapController : MonoBehaviour
         WorldManger.Instance.World.PlaceBuildingObj(tile, buildTypeName);
     }
 
+    public void DoBuildUnit(TileModel tile)
+    {
+        WorldManger.Instance.World.CreateCharacter(tile, WorldManger.Instance.unitController.GetUnitFromCreateList(buildTypeName));
+    }
+
     public void ChangeTile(string name)
     {
         buildModeIsObjects = typeBuild.GROUND;
@@ -62,6 +71,12 @@ public class BuildMouseMapController : MonoBehaviour
     public void SetBuilding(string name)
     {
         buildModeIsObjects = typeBuild.BUILDING;
+        buildTypeName = name;
+    }
+
+    public void CreateUnit(string name)
+    {
+        buildModeIsObjects = typeBuild.MAKEUNIT;
         buildTypeName = name;
     }
 }
