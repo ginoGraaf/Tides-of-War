@@ -102,6 +102,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2bfc29a84675b449932e1d49976a46d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &724161332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724161333}
+  - component: {fileID: 724161334}
+  m_Layer: 0
+  m_Name: turn system
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724161333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724161332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1230065115615840115}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724161334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724161332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ca9f3a82d478a408d13bc34c918b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2138258554
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,6 +209,7 @@ Transform:
   - {fileID: 1230065116774968944}
   - {fileID: 2138258555}
   - {fileID: 5096461040760783861}
+  - {fileID: 724161333}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -318,8 +362,10 @@ MonoBehaviour:
   mapSizeX: 20
   mapSizeY: 20
   tileview: {fileID: 1230065116849861161}
+  unitView: {fileID: 866936901}
   buildingView: {fileID: 459889486}
   buildingController: {fileID: 524283073}
+  unitController: {fileID: 329299509}
 --- !u!1 &2967525701420198559
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6884784312016323509}
+  - component: {fileID: 866936901}
   m_Layer: 0
   m_Name: UnitView
   m_TagString: Untagged
@@ -350,6 +397,26 @@ Transform:
   m_Father: {fileID: 5096461040760783861}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &866936901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2967525701420198559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53d87930f527631419e16eaed105b712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitListButton: {fileID: 0}
+  unitLoadSpritesSheets:
+  - unitName: InfantryRed
+    UnitSprite: {fileID: -4359120261157766275, guid: b7b2d0e0c83ae4e46b31a6ce54a53810,
+      type: 3}
+  - unitName: InfantryBlue
+    UnitSprite: {fileID: 223594534675916810, guid: 20ecc3e9900337f4694b100c715d96b1,
+      type: 3}
 --- !u!1 &3103235263170712769
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3444654674472486026}
+  - component: {fileID: 329299509}
   m_Layer: 0
   m_Name: UnitController
   m_TagString: Untagged
@@ -380,6 +448,20 @@ Transform:
   m_Father: {fileID: 5096461040760783861}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329299509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3103235263170712769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d16fc6cb72ba4e8bd01207fb15a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetPrefab: {fileID: 4381069302530932176, guid: 227a088ff8b9a2143b64e7d85d67eabd,
+    type: 3}
 --- !u!1 &4833012455255169180
 GameObject:
   m_ObjectHideFlags: 0

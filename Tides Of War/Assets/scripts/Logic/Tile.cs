@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
     public class Tile
     {
+
         public bool DestroyObject(TileModel tile)
         {
             if (tile.Building == null)
@@ -61,6 +62,8 @@ using System.Collections.Generic;
 
             return true;
         }
+
+
   
     }
 

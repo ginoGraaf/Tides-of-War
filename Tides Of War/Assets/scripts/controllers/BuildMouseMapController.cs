@@ -8,12 +8,20 @@ public class BuildMouseMapController : MonoBehaviour
     typeBuild buildModeIsObjects = typeBuild.SELECTMODE;
     string buildTypeName = "";
     Vector2 mousePos;
+    UnitModel selectedUnit;
+    bool MouseTypeSelectUnit = false;
+    public UnitModel SelectedUnit { get => selectedUnit; set => selectedUnit = value; }
 
     // Update is called once per frame
     void Update()
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
+        {
+
+            ChangeBuild();
+        }
+        if(Input.GetMouseButton(0) && !MouseTypeSelectUnit)
         {
             ChangeBuild();
         }
@@ -21,6 +29,10 @@ public class BuildMouseMapController : MonoBehaviour
         {
             buildModeIsObjects = typeBuild.SELECTMODE;
             WorldManger.Instance.unitController.UnitDeselect();
+            if (!WorldManger.Instance.unitController.openUnitOrderMenu.activeInHierarchy)
+            {
+                SelectedUnit = null;
+            }
             buildTypeName = "";
         }
 
@@ -34,10 +46,28 @@ public class BuildMouseMapController : MonoBehaviour
         switch(buildModeIsObjects)
         {
             case typeBuild.SELECTMODE:
+                if (SelectedUnit != null)
+                {
+                    WorldManger.Instance.unitController.MoveUnit(SelectedUnit, tile);
+                }
                 if (tile != null)
                 {
-                    WorldManger.Instance.unitController.UnitSlected(tile.UnitOnTile);
+                    MouseTypeSelectUnit = true;
+                    if (!WorldManger.Instance.unitController.openUnitOrderMenu.activeInHierarchy)
+                    {
+                        WorldManger.Instance.unitController.UnitSlected(tile.UnitOnTile);
+                        if (tile.UnitOnTile != null)
+                        {
+                            SelectedUnit = tile.UnitOnTile;
+                        }
+                    }
                 }
+                if (WorldManger.Instance.unitController.openUnitOrderMenu.activeInHierarchy)
+                {
+                    WorldManger.Instance.unitController.OrderStrike(tile);
+                    WorldManger.Instance.unitController.DeslectTargets();
+                }
+
                 break;
             case typeBuild.GROUND:
                 DoBuild(tile);
@@ -46,7 +76,10 @@ public class BuildMouseMapController : MonoBehaviour
                 DoBuildObject(tile);
                 break;
             case typeBuild.MAKEUNIT:
-                DoBuildUnit(tile);
+                if (tile.UnitOnTile == null)
+                {
+                    DoBuildUnit(tile);
+                }
                 break;
 
         }
@@ -72,18 +105,21 @@ public class BuildMouseMapController : MonoBehaviour
     public void ChangeTile(string name)
     {
         buildModeIsObjects = typeBuild.GROUND;
+        MouseTypeSelectUnit = false;
         buildTypeName = name;
     }
 
     public void SetBuilding(string name)
     {
         buildModeIsObjects = typeBuild.BUILDING;
+        MouseTypeSelectUnit = false;
         buildTypeName = name;
     }
 
     public void CreateUnit(string name)
     {
         buildModeIsObjects = typeBuild.MAKEUNIT;
+        MouseTypeSelectUnit = false;
         buildTypeName = name;
     }
 }

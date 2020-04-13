@@ -19,6 +19,8 @@ using System.Text;
         public BuildingModel Building { get { return buildModel; } set { buildModel = value; } }
         public bool OcupyTile { get; set; }
         public Action<TileModel> cbTileChanged;
+    public Action<TileModel> CbTileWaterRise;
+    public Action<TileModel> CbTileWaterLower;
         public string TileType
         {
             get { return tileType; }

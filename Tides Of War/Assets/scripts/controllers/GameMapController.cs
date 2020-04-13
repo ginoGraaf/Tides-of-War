@@ -10,15 +10,18 @@ public class GameMapController
     Action<TileModel> callbackTileChange;
     Action<BuildingModel> callbackBuildingCreated;
     Action<UnitModel> callbackCharacter;
-
+    RiseWaterLogic riseWaterLogic;
     BuildBuilding buildingLogic;
     int worldWidth = 0, worldHight = 0;
     public int WorldWidth { get { return worldWidth; } set { worldWidth = value; } }
     public int WorldHight { get { return worldHight; } set { worldHight = value; } }
 
+    public RiseWaterLogic RiseWaterLogic { get => riseWaterLogic; set => riseWaterLogic = value; }
+
     public GameMapController(int width, int height)
     {
         buildingLogic = new BuildBuilding();
+        RiseWaterLogic = new RiseWaterLogic();
         tiles = new TileModel[width, height];
         WorldWidth = width;
         WorldHight = height;
@@ -28,21 +31,11 @@ public class GameMapController
             for (int y = 0; y < height; y++)
             {
                 tiles[x, y] = new TileModel { X = x, Y = y, blocked = false, TileType = "Grass",TileMovementCost=1 };
-               // tiles[x, y].node = new NodeT(x, y, false, this);
             }
         }
     }
 
-    public void SetNeighbors()
-    {
-        for (int x = 0; x < WorldWidth; x++)
-        {
-            for (int y = 0; y < WorldHight; y++)
-            {
-               // tiles[x, y].node.SetNeighbor(tiles[x, y]);
-            }
-        }
-    }
+
 
     public TileModel getTile(int x, int y)
     {
@@ -129,13 +122,14 @@ public class GameMapController
                 callbackCharacter(unitmodel);
             }
             WorldManger.Instance.unitController.AddUnitToList(unitmodel);
+            WorldManger.Instance.turnController.TeamUpdate(WorldManger.Instance.turnController.GetTeam());
         }
     }
 
     //[Callback for graphics].
-    public void RegisterTileChange(Action<TileModel> tile)
+    public void RegisterTileChange(Action<TileModel> tilechangerview)
     {
-        callbackTileChange += tile;
+        callbackTileChange += tilechangerview;
     }
 
     public void RegisterCreateBuilding(Action<BuildingModel> building)

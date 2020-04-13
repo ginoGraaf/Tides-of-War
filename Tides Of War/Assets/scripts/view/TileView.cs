@@ -41,6 +41,7 @@ public class TileView : MonoBehaviour
             Debug.LogError("No Such Tile Model Founded");
             return;
         }
+        AddFloodSystem(tileModel);
         GameObject tileObj = WorldTile[tileModel];
         tileObj.name = tileModel.TileType+" x: "+tileModel.X+" y: "+tileModel.Y;
         SpriteRenderer sprite = tileObj.GetComponent<SpriteRenderer>();
@@ -58,6 +59,24 @@ public class TileView : MonoBehaviour
             }
         }
     }
-
+    void AddFloodSystem(TileModel tileModel)
+    {
+        if (tileModel.TileType == "LowLand")
+        {
+            if (tileModel.CbTileWaterRise == null)
+            {
+                tileModel.CbTileWaterRise += WorldManger.Instance.World.RiseWaterLogic.RiseWater;
+            }
+            if (tileModel.CbTileWaterLower == null)
+            {
+                tileModel.CbTileWaterLower += WorldManger.Instance.World.RiseWaterLogic.LowerWater;
+            }
+        }
+        else if( tileModel.TileType!= "LowLand" && tileModel.TileType!="Water")
+        {
+            tileModel.CbTileWaterRise -= WorldManger.Instance.World.RiseWaterLogic.RiseWater;
+            tileModel.CbTileWaterLower -= WorldManger.Instance.World.RiseWaterLogic.LowerWater;
+        }
+    }
   
 }

@@ -16,7 +16,7 @@ MonoBehaviour:
   - nameOfTile: Grass
     tileImage: {fileID: 6988354179208716343, guid: 5eab6084f70ae2b44ac74aa7751f47ad,
       type: 3}
-  - nameOfTile: Water
+  - nameOfTile: DeepWater
     tileImage: {fileID: 107105556137994235, guid: 5eab6084f70ae2b44ac74aa7751f47ad,
       type: 3}
   - nameOfTile: Forest
@@ -24,4 +24,10 @@ MonoBehaviour:
       type: 3}
   - nameOfTile: Mountains
     tileImage: {fileID: 952519152249926199, guid: 5eab6084f70ae2b44ac74aa7751f47ad,
+      type: 3}
+  - nameOfTile: LowLand
+    tileImage: {fileID: -860169901102524394, guid: 5eab6084f70ae2b44ac74aa7751f47ad,
+      type: 3}
+  - nameOfTile: Water
+    tileImage: {fileID: 107105556137994235, guid: 5eab6084f70ae2b44ac74aa7751f47ad,
       type: 3}

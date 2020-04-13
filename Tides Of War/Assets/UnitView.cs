@@ -19,6 +19,7 @@ public class UnitView : MonoBehaviour
             unitListButton.CreateButton(us);
         }
         WorldManger.Instance.World.RegisterCharacterToWorld(CreateNewUnit);
+        WorldManger.Instance.unitController.RegisterUnitView(DeleteUnit);
     }
 
 
@@ -30,6 +31,7 @@ public class UnitView : MonoBehaviour
         Unit.transform.position = new Vector3(model.PosX, model.PosY, -2);
 
         model.CbUnitUpdateGraphics += UpdateUnitSprite;
+        UnitOnMap.Add(model, Unit);
     }
 
     void UpdateUnitSprite(UnitModel model)
@@ -41,6 +43,26 @@ public class UnitView : MonoBehaviour
         }
         GameObject unit = UnitOnMap[model];
         unit.transform.position = new Vector3(model.PosX, model.PosY, -2);
+
+        if(model.UnitHasMoved)
+        {
+            unit.GetComponent<SpriteRenderer>().color = new Color(0.5f, 0.5f, 0.5f,1);
+        }
+        else
+        {
+            unit.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+        }
+    }
+    void DeleteUnit(UnitModel model)
+    {
+        if (!UnitOnMap.ContainsKey(model))
+        {
+            Debug.LogError("No Unit Founded");
+            return;
+        }
+        GameObject obj = UnitOnMap[model];
+        UnitOnMap.Remove(model);
+        Destroy(obj);
     }
 }
 

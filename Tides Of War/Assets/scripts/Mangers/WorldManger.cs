@@ -15,6 +15,7 @@ public class WorldManger : MonoBehaviour
 
     public BuildingController buildingController;
     public UnitController unitController;
+    public TurnController turnController;
     public GameMapController World { get; set; }
    
     public static WorldManger Instance { get; set; }
@@ -36,5 +37,6 @@ public class WorldManger : MonoBehaviour
         unitController.InitUnits();
         unitView.InitSprite();
         buildingView.SetUpBuildings();
+        turnController.Init();
     }
 }
