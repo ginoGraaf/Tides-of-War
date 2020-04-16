@@ -7,7 +7,7 @@ public class UnitModel
 {
     public enum UnitColor { RED,BLUE,GREEN,YELLOW};
     public UnitColor unitColorType;
-    public enum UnitType { LAND,WATER,SPECIAL};
+    public enum UnitType { LAND,WATER,SPECIAL,TANK};
     public UnitType unitType { get; set; }
     public bool UnitHasMoved { get; set; }
     public string UnitName { get; set; }

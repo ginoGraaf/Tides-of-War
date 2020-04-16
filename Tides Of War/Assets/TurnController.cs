@@ -1,19 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
+
 
 public class TurnController : MonoBehaviour
 {
+    [SerializeField]
+    WinScreen winScreen;
+    [SerializeField]
+    bool[] activeTeam;
+    [SerializeField]
+    int waterRiseCounter = 2;
+
     int turn = 0;
     int teamIndex=0;
     TeamModel[] teams = new TeamModel[4];
-    [SerializeField]
-    bool[] activeTeam;
-
-    bool waterRise = false;
-    [SerializeField]
-    int waterRiseCounter=2;
+    bool waterRise = false;  
     int waterCounter = 0;
+    
     public void Init()
     {
         teams[0] = new TeamModel { teamColor = TeamModel.TeamColor.RED, active = activeTeam[0] };
@@ -156,5 +161,10 @@ public class TurnController : MonoBehaviour
             TeamActive();
         }
     
+    }
+
+   public void GameWon(string teamWon,Color teamColor)
+    {
+        winScreen.WinGameScreenOpen(teamWon, teamColor);
     }
 }

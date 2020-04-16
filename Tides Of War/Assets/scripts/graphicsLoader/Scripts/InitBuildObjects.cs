@@ -28,7 +28,7 @@ public class InitBuildObjects : MonoBehaviour {
     {
         buildingObject = new Dictionary<string, BuildingModel>();
         BuildingObject.Add("Cities", new BuildingModel.BasicBuilding { ObjectType = "Cities", ObjectSprite = "Cities", Width = 1, Height = 1, IsBlocked = false});
-
+        BuildingObject.Add("Factory", new BuildingModel.BasicBuilding { ObjectType = "Factory", ObjectSprite = "Factory", Width = 1, Height = 1, IsBlocked = false });
     }
 
     public void InitBuildingsFactory()

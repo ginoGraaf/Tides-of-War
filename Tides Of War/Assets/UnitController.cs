@@ -6,7 +6,8 @@ public class UnitController : MonoBehaviour
 {
     [SerializeField]
     GameObject TargetPrefab,AttackTilePrefab;
-
+    [SerializeField]
+    TurnController turnController;
     public GameObject openUnitOrderMenu;
     Dictionary<string, UnitModel> unitsToCreated = new Dictionary<string, UnitModel>();
     List<GameObject> TargetWalkTile = new List<GameObject>();
@@ -15,15 +16,18 @@ public class UnitController : MonoBehaviour
     List<TileModel> tiles = new List<TileModel>();
     GetTileAlgorithme getTileAlgorithme;
     Action<UnitModel> DestroyUnitOutView;
+
     
     // Start is called before the first frame update
    public void InitUnits()
     {
         getTileAlgorithme = new GetTileAlgorithme();
-        unitsToCreated.Add("InfantryRed", new UnitModel { UnitName = "InfantryRed", UnitMovemtCredits = 2, UnitHitPoints = 10, UnitPower = 3, UnitDefence = 1,unitColorType=UnitModel.UnitColor.RED,unitType=UnitModel.UnitType.LAND,UnitShotDistance=1 });
-        unitsToCreated.Add("InfantryBlue", new UnitModel { UnitName = "InfantryBlue", UnitMovemtCredits = 2, UnitHitPoints = 10, UnitPower = 3, UnitDefence = 1, unitColorType = UnitModel.UnitColor.BLUE, unitType = UnitModel.UnitType.LAND,UnitShotDistance=1 });
-        unitsToCreated.Add("TankRed", new UnitModel { UnitName = "TankRed", UnitMovemtCredits = 4, UnitHitPoints = 10, UnitPower = 5, UnitDefence = 3, unitColorType = UnitModel.UnitColor.RED, unitType = UnitModel.UnitType.LAND, UnitShotDistance = 1 });
-        unitsToCreated.Add("TankBlue", new UnitModel { UnitName = "TankBlue", UnitMovemtCredits = 4, UnitHitPoints = 10, UnitPower = 5, UnitDefence = 3, unitColorType = UnitModel.UnitColor.BLUE, unitType = UnitModel.UnitType.LAND, UnitShotDistance = 1 });
+        unitsToCreated.Add("InfantryRed", new UnitModel { UnitName = "InfantryRed", UnitMovemtCredits = 2, UnitHitPoints = 10, UnitPower = 3, UnitDefence = 1,unitColorType=UnitModel.UnitColor.RED,unitType=UnitModel.UnitType.LAND,UnitShotDistance=0 });
+        unitsToCreated.Add("InfantryBlue", new UnitModel { UnitName = "InfantryBlue", UnitMovemtCredits = 2, UnitHitPoints = 10, UnitPower = 3, UnitDefence = 1, unitColorType = UnitModel.UnitColor.BLUE, unitType = UnitModel.UnitType.LAND,UnitShotDistance=0 });
+        unitsToCreated.Add("TankRed", new UnitModel { UnitName = "TankRed", UnitMovemtCredits = 4, UnitHitPoints = 10, UnitPower = 5, UnitDefence = 3, unitColorType = UnitModel.UnitColor.RED, unitType = UnitModel.UnitType.TANK, UnitShotDistance = 0 });
+        unitsToCreated.Add("TankBlue", new UnitModel { UnitName = "TankBlue", UnitMovemtCredits = 4, UnitHitPoints = 10, UnitPower = 5, UnitDefence = 3, unitColorType = UnitModel.UnitColor.BLUE, unitType = UnitModel.UnitType.TANK, UnitShotDistance = 0 });
+        unitsToCreated.Add("RocketRed", new UnitModel { UnitName = "RocketRed", UnitMovemtCredits = 4, UnitHitPoints = 10, UnitPower = 7, UnitDefence = 3, unitColorType = UnitModel.UnitColor.RED, unitType = UnitModel.UnitType.TANK, UnitShotDistance = 3 });
+        unitsToCreated.Add("RocketBlue", new UnitModel { UnitName = "RocketBlue", UnitMovemtCredits = 4, UnitHitPoints = 10, UnitPower = 7, UnitDefence = 3, unitColorType = UnitModel.UnitColor.BLUE, unitType = UnitModel.UnitType.TANK, UnitShotDistance = 3 });
         CreateTargets();
     }
 
@@ -121,7 +125,43 @@ public class UnitController : MonoBehaviour
             //for now destroyUnit
             DestroyUnit(unit);
             tiles.Clear();
+            CheckGameWon();
         }
+    }
+    public void CheckGameWon()
+    {
+        int teamExist = 0;
+        Color teamColor=new Color();
+        string teamName="";
+        if(UnitsLeft(UnitModel.UnitColor.RED)>=1)
+        {
+            teamExist++;
+            teamColor = new Color(255, 0, 0);
+            teamName = "Red Team Has Won";
+        }
+        if(UnitsLeft(UnitModel.UnitColor.BLUE) >= 1)
+        {
+            teamExist++;
+            teamColor = new Color(0, 0, 255);
+            teamName = "Blue Team Has Won";
+        }
+        if (teamExist==1)
+        {
+            turnController.GameWon(teamName,teamColor);
+        }
+    }
+
+    public int UnitsLeft(UnitModel.UnitColor unitColor)
+    {
+        int unitsOnField = 0;
+        for (int i = 0; i < allUnitsInWorld.Count; i++)
+        {
+            if(allUnitsInWorld[i].unitColorType==unitColor)
+            {
+                unitsOnField++;
+            }
+        }
+        return unitsOnField;
     }
 
     public void MoveUnit(UnitModel model, TileModel tile)

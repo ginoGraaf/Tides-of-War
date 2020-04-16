@@ -152,7 +152,24 @@ public class GetTileAlgorithme
                     }
                     movementpointsLeft--;
                 }
+           
             break;
+            case UnitModel.UnitType.WATER:
+                break;
+            case UnitModel.UnitType.TANK:
+                if (tile.TileType == "Water" || tile.TileType == "DeepWater" || tile.TileType== "Mountains")
+                {
+                    movementpointsLeft = -1;
+                }
+                else
+                {
+                    if (tile.UnitOnTile == null)
+                    {
+                        Tiles.Add(tile);
+                    }
+                    movementpointsLeft--;
+                }
+                break;
         }
         return movementpointsLeft;
     }
