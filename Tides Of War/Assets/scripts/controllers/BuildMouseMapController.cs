@@ -64,7 +64,7 @@ public class BuildMouseMapController : MonoBehaviour
                 }
                 if (WorldManger.Instance.unitController.openUnitOrderMenu.activeInHierarchy)
                 {
-                    WorldManger.Instance.unitController.OrderStrike(tile);
+                    WorldManger.Instance.unitController.OrderStrike(tile,selectedUnit);
                     WorldManger.Instance.unitController.DeslectTargets();
                 }
 

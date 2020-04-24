@@ -9,6 +9,7 @@ using System.Text;
         int x, y;
         public bool blocked = false;
         string tileType;
+    public int TileDefnece { get; set; }
       //  public NodeT node;
         BuildingModel buildModel;
         public UnitModel UnitOnTile { get; set; }

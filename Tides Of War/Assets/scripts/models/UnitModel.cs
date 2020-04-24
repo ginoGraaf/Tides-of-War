@@ -20,4 +20,6 @@ public class UnitModel
     public float PosX { get; set; }
     public float PosY { get; set; }
     public Action<UnitModel> CbUnitUpdateGraphics;
+    public Action<UnitModel> CbHealthBar;
+    public float maxHealth = 10;
 }

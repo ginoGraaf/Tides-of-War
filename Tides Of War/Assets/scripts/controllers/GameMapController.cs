@@ -52,6 +52,8 @@ public class GameMapController
         {
             return;
         }
+        tile.TileMovementCost = WorldManger.Instance.tileview.TileTypeList[tile.TileType].MovementCost;
+        tile.TileDefnece = WorldManger.Instance.tileview.TileTypeList[tile.TileType].TileDefence;
         callbackTileChange(tile);
     }
 
@@ -96,14 +98,6 @@ public class GameMapController
             {
                 tiles[x, y].cbTileChanged += UpdateTile;
                 tiles[x, y].TileType = "Grass";
-                //if (WorldManger.loadWorldMap != null)
-                //{
-                //    tiles[x, y].TileType = WorldManger.loadWorldMap.savetile[x, y].tileType;
-                //}
-                //else
-                //{
-             
-                //}
 
             }
         }
@@ -121,7 +115,9 @@ public class GameMapController
             {
                 callbackCharacter(unitmodel);
             }
+
             WorldManger.Instance.unitController.AddUnitToList(unitmodel);
+            WorldManger.Instance.healthbarView.AddHealthBarToUnit(unitmodel);
             WorldManger.Instance.turnController.TeamUpdate(WorldManger.Instance.turnController.GetTeam());
         }
     }

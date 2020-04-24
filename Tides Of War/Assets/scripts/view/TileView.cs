@@ -8,7 +8,7 @@ public class TileView : MonoBehaviour
     TileButton tilebutton;
     [SerializeField]
     List<TilesGraphic> loadTileSprite;
-    Dictionary<string, Sprite> SpriteTileList=new Dictionary<string, Sprite>();
+    public Dictionary<string, TileLoadSprite> TileTypeList=new Dictionary<string, TileLoadSprite>();
     Dictionary<TileModel, GameObject> WorldTile = new Dictionary<TileModel, GameObject>();
 
     public void TileSetup()
@@ -28,7 +28,7 @@ public class TileView : MonoBehaviour
                 TileModel tilemodel = WorldManger.Instance.World.getTile(x, y);
                 GameObject TileObj = new GameObject(tilemodel.TileType+" x: "+x+" y: "+y);
                 TileObj.transform.position = new Vector2(tilemodel.X, tilemodel.Y);
-                TileObj.AddComponent<SpriteRenderer>().sprite = SpriteTileList[tilemodel.TileType];
+                TileObj.AddComponent<SpriteRenderer>().sprite = TileTypeList[tilemodel.TileType].TileImage;
                 WorldTile.Add(tilemodel, TileObj);
             }
         }
@@ -45,7 +45,7 @@ public class TileView : MonoBehaviour
         GameObject tileObj = WorldTile[tileModel];
         tileObj.name = tileModel.TileType+" x: "+tileModel.X+" y: "+tileModel.Y;
         SpriteRenderer sprite = tileObj.GetComponent<SpriteRenderer>();
-        sprite.sprite = SpriteTileList[tileModel.TileType];
+        sprite.sprite = TileTypeList[tileModel.TileType].TileImage;
     }
 
     void SetupSpriteDictionary()
@@ -54,7 +54,7 @@ public class TileView : MonoBehaviour
         {
             for (int i = 0; i < t.TileSprite.Count; i++)
             {
-                SpriteTileList.Add(t.TileSprite[i].NameOfTile, t.TileSprite[i].TileImage);
+                TileTypeList.Add(t.TileSprite[i].NameOfTile, t.TileSprite[i]);
                 tilebutton.CreateButton(t.TileSprite[i]);
             }
         }

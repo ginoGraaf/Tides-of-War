@@ -150,7 +150,7 @@ public class GetTileAlgorithme
                     {
                         Tiles.Add(tile);
                     }
-                    movementpointsLeft--;
+                    movementpointsLeft-=tile.TileMovementCost;
                 }
            
             break;
